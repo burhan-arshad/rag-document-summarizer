@@ -6,8 +6,7 @@ The application allows users to upload PDF or TXT documents and ask questions ab
 
 ## Live Demo
 
-Live Demo: [Add your Streamlit Cloud URL here]
-
+Live Demo: https://rag-document-summarizer-burhan.streamlit.app/
 ## Features
 
 - Upload PDF and TXT documents
@@ -25,27 +24,39 @@ Live Demo: [Add your Streamlit Cloud URL here]
 
 Document Upload
         ↓
+        
 Document Loading
         ↓
+        
 Text Splitting
         ↓
+        
 Embedding Generation
         ↓
+        
 ChromaDB
         ↓
+        
 User Question
         ↓
+        
 Query Embedding
         ↓
+        
 Similarity Search
         ↓
+        
 Retriever
         ↓
+        
 Relevant Context
         ↓
+        
 Groq LLM
         ↓
+        
 Final Answer
+
 
 ## Tech Stack
 
@@ -79,7 +90,7 @@ openai/gpt-oss-120b
 
 Clone the repository:
 
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/burhan-arshad/rag-document-summarizer
 
 Navigate to the project:
 
@@ -133,15 +144,26 @@ The application may take some time to respond because it uses a local embedding 
 ## Project Structure
 
 RAG/
+
 │
+
 ├── app.py
+
 ├── requirements.txt
+
 ├── README.md
+
 ├── .gitignore
+
 ├── .env
+
 │
+
 ├── uploads/
+
 │
+
+
 └── chroma-db/
 
 The `.env`, `uploads/`, and `chroma-db/` directories should not be committed to GitHub.
