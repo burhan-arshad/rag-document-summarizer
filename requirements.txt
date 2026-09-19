@@ -1,0 +1,74 @@
+# ==========================================
+# RAG FRAMEWORK
+# ==========================================
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# ==========================================
+# LLM PROVIDERS
+# ==========================================
+# OpenAI
+openai
+langchain-openai
+
+# Groq
+groq
+langchain-groq
+
+# Mistral AI
+mistralai
+langchain-mistralai
+
+# ==========================================
+# EMBEDDINGS
+# ==========================================
+sentence-transformers
+langchain-huggingface
+
+# ==========================================
+# VECTOR DATABASES
+# ==========================================
+chromadb
+langchain-chroma
+faiss-cpu
+
+# ==========================================
+# DOCUMENT LOADING
+# ==========================================
+pypdf
+python-docx
+unstructured
+
+# ==========================================
+# HUGGING FACE / LOCAL MODELS
+# ==========================================
+transformers
+huggingface-hub
+torch
+
+# ==========================================
+# FILE UPLOAD / ENVIRONMENT
+# ==========================================
+python-dotenv
+
+# ==========================================
+# WEB/API BACKEND
+# ==========================================
+fastapi
+uvicorn
+python-multipart
+
+# ==========================================
+# USER INTERFACE
+# ==========================================
+streamlit
+
+# ==========================================
+# DATA & UTILITIES
+# ==========================================
+numpy
+pandas
+requests
+tqdm
